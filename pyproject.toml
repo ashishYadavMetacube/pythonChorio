@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "generatepdf"
+version = "0.1.0"
+description = ""
+authors = ["avickyadav <ashishvickyadav@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+reportlab = "^4.2.2"
+python-multipart = "^0.0.9"
+pdfrw = "^0.4"
+pypdf2 = "^3.0.1"
+fillpdf = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
